@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
     vendor/realme/RMX1831/proprietary/lib/libvcodec_capenc.so:system/lib/libvcodec_capenc.so \
     vendor/realme/RMX1831/proprietary/lib/libvt_avsync.so:system/lib/libvt_avsync.so \
-    vendor/realme/RMX1831/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:system/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX1831/proprietary/lib64/libmtk_vt_wrapper.so:system/lib64/libmtk_vt_wrapper.so \
     vendor/realme/RMX1831/proprietary/lib64/libmtkaudio_utils.so:system/lib64/libmtkaudio_utils.so \
     vendor/realme/RMX1831/proprietary/lib64/libmtkavenhancements.so:system/lib64/libmtkavenhancements.so \
@@ -49,9 +48,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
     vendor/realme/RMX1831/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
     vendor/realme/RMX1831/proprietary/lib64/libvcodec_capenc.so:system/lib64/libvcodec_capenc.so \
-    vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:system/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX1831/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
     vendor/realme/RMX1831/proprietary/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkperf_client.so \
+    vendor/realme/RMX1831/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/realme/RMX1831/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
+
 
 PRODUCT_PACKAGES += \
     SoterService \
