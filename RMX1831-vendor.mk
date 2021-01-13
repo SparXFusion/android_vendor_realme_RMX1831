@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/bin/vtservice:system/bin/vtservice \
     vendor/realme/RMX1831/proprietary/etc/init/init.vtservice.rc:system/etc/init/init.vtservice.rc \
     vendor/realme/RMX1831/proprietary/framework/mediatek-ims-extension-plugin.jar:system/framework/mediatek-ims-extension-plugin.jar \
+    vendor/realme/RMX1831/proprietary/framework/mediatek-ims-legacy.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-legacy.jar \
     vendor/realme/RMX1831/proprietary/lib/libcomutils.so:system/lib/libcomutils.so \
     vendor/realme/RMX1831/proprietary/lib/libimsma.so:system/lib/libimsma.so \
     vendor/realme/RMX1831/proprietary/lib/libimsma_adapt.so:system/lib/libimsma_adapt.so \
@@ -48,7 +49,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
     vendor/realme/RMX1831/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
     vendor/realme/RMX1831/proprietary/lib64/libvcodec_capenc.so:system/lib64/libvcodec_capenc.so \
-    vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:system/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+    vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:system/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/realme/RMX1831/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
+    vendor/realme/RMX1831/proprietary/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkperf_client.so \
 
 PRODUCT_PACKAGES += \
     SoterService \
@@ -56,7 +59,9 @@ PRODUCT_PACKAGES += \
     ImsService \
     mediatek-common \
     mediatek-framework \
+    mediatek-ims-base \
     mediatek-ims-common \
     mediatek-telecom-common \
-    mediatek-telephony-base 
+    mediatek-telephony-base \
+    mediatek-telephony-common
     
