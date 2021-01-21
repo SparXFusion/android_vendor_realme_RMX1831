@@ -1152,7 +1152,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/vendor/etc/faceTpl0.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/faceTpl0.rgb32 \
     vendor/realme/RMX1831/proprietary/vendor/etc/faceTpl1.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/faceTpl1.rgb32 \
     vendor/realme/RMX1831/proprietary/vendor/etc/file112.wav:$(TARGET_COPY_OUT_VENDOR)/etc/file112.wav \
-    vendor/realme/RMX1831/proprietary/vendor/etc/fstab.mt6771:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6771 \
     vendor/realme/RMX1831/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/realme/RMX1831/proprietary/vendor/etc/fteh.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fteh.cfg \
     vendor/realme/RMX1831/proprietary/vendor/etc/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/gasryuv.model \
@@ -1456,7 +1455,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/vendor/firmware/tp/18611/FW_HX_NF83112A_DSJM_FAE.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18611/FW_HX_NF83112A_DSJM_FAE.img \
     vendor/realme/RMX1831/proprietary/vendor/firmware/tp/18611/FW_HX_NF83112A_DSJM_TEST.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18611/FW_HX_NF83112A_DSJM_TEST.img \
     vendor/realme/RMX1831/proprietary/vendor/firmware/ufs/move_target_ufs_fw_to_opporeserve1.sh:$(TARGET_COPY_OUT_VENDOR)/firmware/ufs/move_target_ufs_fw_to_opporeserve1.sh \
-    vendor/realme/RMX1831/proprietary/vendor/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/fstab.enableswap \
     vendor/realme/RMX1831/proprietary/vendor/lib/android.frameworks.faceservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.faceservice@1.0.so \
     vendor/realme/RMX1831/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/realme/RMX1831/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
